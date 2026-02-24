@@ -24,7 +24,7 @@ A simple command-line tool written in Python for analyzing CSV datasets.
 
 Install dependencies:
 
-pip install -r requirements.txt
+python3 -m pip install -r requirements.txt
 
 ---
 
@@ -56,3 +56,10 @@ csv-data-analyzer/
 ├── data.csv
 ├── requirements.txt
 └── README.md
+## Example
+
+python analyzer.py data.csv --stats-only
+
+Output:
+- Overview of dataset
+- Descriptive statistics table for numeric columns
